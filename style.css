@@ -1,0 +1,134 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --main-color: #10c8b6;
+    --second-color: #fafafa;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* header */
+
+header {
+    background: url(https://images3.alphacoders.com/109/thumb-350-1090931.jpg)
+        no-repeat 0px -253px;
+    background-size: cover;
+    height: 412px;
+    text-align: center;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+h1 {
+    margin-top: 50px;
+    color: var(--main-color);
+}
+
+.Service {
+    padding-top: 40px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.item {
+    text-align: center;
+    background-color: #fff;
+    width: 33%;
+}
+
+.p-item {
+    margin: 15px;
+}
+
+.portfolio {
+    background-color: #fafafa;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-portfilio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-portfolio {
+    width: 32%;
+}
+
+.item-portfolio img {
+    width: 100%;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+i {
+    color: var(--main-color);
+}
+
+/* start services */
+
+.title {
+    color: #ebeced;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0px;
+}
+
+title,
+p {
+    text-align: center;
+}
+
+.services .services-content {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    width: 66%;
+}
+
+.image {
+    width: 33%;
+}
+
+.about-content {
+    display: flex;
+}
